@@ -45,6 +45,8 @@ export async function fetchFeedbacks() {
         .select()
         .eq('display', true);
 
+    console.log(data);
+
     if (error) {
         console.error(error);
         throw new Error('Failed to fetch feedbacks', { cause: error.message });
