@@ -1,56 +1,69 @@
 [
     {
-        "title": "Software Engineer 1",
-        "company": "Dell Technologies Inc.",
-        "date": "March 2024 - Present",
-        "description": "Recently joined the company as a Software Engineer 1. I am responsible for developing and maintaining software applications for internal use. I work closely with the product owner and other team members to deliver high-quality software solutions.",
+        "title": "Frontend Developer",
+        "company": "FPT Polytechnic College",
+        "date": "Aug 2023 - Present (Freelancer)",
+        "description": "Collaborated with other engineers to design, build, and develop projects for clients of FPT Polytechnic College. Developed a web application to manage students and activities in a workshop setting, successfully managing ~10,000 registered students and more than 477 projects.",
         "skills": [
-            "C#",
-            ".NET Core",
-            "Angular",
+            "REST APIs",
             "TypeScript",
-            "Agile Development",
-            "Jira"
-        ]
-    },
-    {
-        "title": "Lead Backend Developer",
-        "company": "Revo Global Sdn. Bhd.",
-        "date": "Feb 2023 - March 2024 · 1 yr 2 mos",
-        "description": "I architected a scalable system for rapid deployment, making key decisions on cloud infrastructure, database management, and design paradigms. Led a team of 3 in developing backend services for web and mobile using REST APIs and component-based software engineering. Collaborated with frontend engineers for seamless integration, implemented CI/CD pipelines with GitHub Actions for automated build, test, and deployment processes.",
-        "skills": [
-            "REST API",
-            "TypeScript",
-            "NestJS",
-            "NextJS",
-            "Supabase",
+            "React",
             "Tailwind CSS",
-            "Jest",
-            "Figma",
-            "Digital Ocean",
-            "Agile Development",
-            "CI/CD",
-            "Database Management",
-            "Unit Testing"
+            "RTK Query",
+            "Redux toolkit",
+            "JWT",
+            "NestJs",
+            "MongoDB",
+            "Docker",
+            "I18n",
+            "Zod",
+            "React Query",
+            "Socket.io",
+            "CSS Framework",
+            "Cloudinary",
+            "Clerk",
+            "Strapi",
+            "Framer-motion",
+            "Stripe",
+            "Firebase"
         ]
     },
     {
-        "title": "Software Engineer Intern",
-        "company": "Dell Technologies Inc.",
-        "date": "August 2022 - January 2023 · 6 mos",
-        "description": "Designed and developed web system that streamlines inventory management process for internal employees. Collaborated with other engineers on existing internal systems to add new features and fix bugs.",
+        "title": "Backend Developer",
+        "company": "TIEN PHONG CDS JOINT STOCK COMPANY",
+        "date": "December 2023 - June 2023 · 6 mos",
+        "description": "I have experience in maintaining and improving performance to meet client requirements. Collaborated with other engineers to design reliable and scalable API solutions and ensured high availability and responsiveness through testing and troubleshooting.",
         "skills": [
             "Full Stack Development",
-            "Java",
-            "TypeScript",
-            "Spring Boot",
-            "Angular",
+            "PHP",
+            "Laravel Lumen",
+            "MySQL",
             "PostgreSQL",
-            "SCSS",
+            "Ruby on Rails",
+            "Packaging Design",
             "Figma",
-            "Pivotal Cloud Foundry",
-            "Agile Development",
-            "Unit Testing"
+            "Ant design",
+            "Postman API",
+            "Design Patterns"
+        ]
+    },
+    {
+        "title": "Developer",
+        "company": "Bytez Team",
+        "date": "August 2024 - Present",
+        "description": "Designed and developed a software, Collaborated with other engineers on existing internal systems to implement feature enhancements and modifications.",
+        "skills": [
+            "TypeScript",
+            "Nextjs",
+            "Laravel Lumen",
+            "MySQL",
+            "PostgreSQL",
+            "Ruby on Rails",
+            "Packaging Design",
+            "Figma",
+            "Ant design",
+            "Postman API",
+            "Design Patterns"
         ]
     }
 ]
