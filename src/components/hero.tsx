@@ -11,6 +11,7 @@ import { AtSign, Github, Linkedin } from 'lucide-react';
 import { Reveal } from './custom/reveal';
 import { TypewriterEffectSmooth } from './ui/typewriter-effect';
 import me from '@/lib/img/me.jpg';
+import { Readcv } from '@/lib/img/icons/readcv';
 
 export default function Hero() {
     const name = [{ text: 'Ethan' }, { text: 'Tran' }];
@@ -117,6 +118,30 @@ export default function Hero() {
                                 </TooltipTrigger>
                                 <TooltipContent>
                                     <p>Email</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        </Reveal>
+                        <Reveal
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{
+                                opacity: 1,
+                                y: 0,
+                                transition: { duration: 0.4, delay: 0.4 },
+                            }}
+                        >
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <Link
+                                        href="https://read.cv/trannguyendanhuy"
+                                        target="_blank"
+                                    >
+                                        <Button variant="secondary" size="icon">
+                                            <Readcv />
+                                        </Button>
+                                    </Link>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>Read.cv</p>
                                 </TooltipContent>
                             </Tooltip>
                         </Reveal>

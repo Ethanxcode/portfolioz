@@ -1,11 +1,11 @@
-import About from "@/components/about";
-import Contact from "@/components/contact";
-import Experiences from "@/components/experiences";
-import Feedbacks from "@/components/feedbacks";
-import Hero from "@/components/hero";
-import Projects from "@/components/projects";
-import Skills from "@/components/skills";
-import { Separator } from "@/components/ui/separator";
+import About from '@/components/about';
+import Contact from '@/components/contact';
+import Experiences from '@/components/experiences';
+import Feedbacks from '@/components/feedbacks';
+import Hero from '@/components/hero';
+import Projects from '@/components/projects';
+import Skills from '@/components/skills';
+import { Separator } from '@/components/ui/separator';
 
 export default function Home() {
     return (
@@ -24,5 +24,5 @@ export default function Home() {
             <Separator />
             <Contact />
         </div>
-    )
+    );
 }
