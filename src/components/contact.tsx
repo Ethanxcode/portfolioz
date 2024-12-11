@@ -34,7 +34,7 @@ export default function Contact() {
                     }}
                 >
                     <Link href="mailto:danhuy.work@gmail.com" target="_blank">
-                        <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-[#fdfdb633] bg-[linear-gradient(110deg,#000103,45%,#fdfdb666,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                        <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-blue-500 bg-[linear-gradient(110deg,#000103,45%,#4C1D95,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                             Say Hi!
                         </button>
 
