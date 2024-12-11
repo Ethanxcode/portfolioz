@@ -1,6 +1,9 @@
 import { Reveal } from './custom/reveal';
+import Spline from '@splinetool/react-spline/next';
 
 export default function Skills() {
+    const spline = process.env.NEXT_PUBLIC_SPLINE_URL || '';
+
     return (
         <section
             id="skills"
@@ -817,33 +820,36 @@ export default function Skills() {
                 </Reveal>
             </div>
 
-            <aside className="bg-black md:ml-auto text-white p-6 rounded-lg w-full max-w-lg font-mono">
-                <Reveal
-                    initial={{ opacity: 0, y: 50 }}
-                    whileInView={{
-                        opacity: 1,
-                        y: 0,
-                        transition: { duration: 0.4 },
-                    }}
-                >
-                    <div className="flex justify-between items-center">
-                        <div className="flex space-x-2 text-red-500">
-                            <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                            <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                            <div className="w-3 h-3 rounded-full bg-green-500"></div>
+            <div className="flex flex-col sm:flex-row w-full justify-center items-center gap-4 ">
+                <Spline scene={spline} />
+                <aside className="bg-black hidden md:block text-white p-6 rounded-lg w-1/2 max-w-lg font-mono">
+                    <Reveal
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{
+                            opacity: 1,
+                            y: 0,
+                            transition: { duration: 0.4 },
+                        }}
+                    >
+                        <div className="flex justify-between items-center">
+                            <div className="flex space-x-2 text-red-500">
+                                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                            </div>
+                            <p className="text-sm">bash</p>
                         </div>
-                        <p className="text-sm">bash</p>
-                    </div>
-                    <div className="mt-4">
-                        <p className="text-green-400">$ npm install next</p>
-                        <p className="text-white">+ next@10.2.3</p>
-                        <p className="text-white">
-                            added 1 package, and audited 2 packages in 3s
-                        </p>
-                        <p className="text-green-400">$</p>
-                    </div>
-                </Reveal>
-            </aside>
+                        <div className="mt-4">
+                            <p className="text-green-400">$ npm install next</p>
+                            <p className="text-white">+ next@10.2.3</p>
+                            <p className="text-white">
+                                added 1 package, and audited 2 packages in 3s
+                            </p>
+                            <p className="text-green-400">$</p>
+                        </div>
+                    </Reveal>
+                </aside>
+            </div>
         </section>
     );
 }
