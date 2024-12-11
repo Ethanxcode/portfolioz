@@ -104,6 +104,17 @@ export const InfiniteMovingCards = ({
                         // 'linear-gradient(180deg, var(--slate-800), var(--slate-900)',
                         key={item.name}
                     >
+                        <div className="flex py-2 gap-1">
+                            <div className="">
+                                <span className="bg-red-500 inline-block center w-3 h-3 rounded-full"></span>
+                            </div>
+                            <div className="circle">
+                                <span className="bg-yellow-500 inline-block center w-3 h-3 rounded-full"></span>
+                            </div>
+                            <div className="circle">
+                                <span className="bg-green-500 box inline-block center w-3 h-3 rounded-full"></span>
+                            </div>
+                        </div>
                         <blockquote>
                             <div
                                 aria-hidden="true"
